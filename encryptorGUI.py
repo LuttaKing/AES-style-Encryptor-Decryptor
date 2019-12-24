@@ -2,7 +2,7 @@
 import pyAesCrypt,os
 import PySimpleGUI as sg
 
-pswd="Luttason6"
+pswd="Lut"
 bffr=64*1024
 
 def ecrpt(file):
