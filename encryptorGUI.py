@@ -2,8 +2,7 @@
 import pyAesCrypt,os
 import PySimpleGUI as sg
 
-pswd="Lughjta"
-bffr=64*1024
+ffsdbffr=64*1024
 
 def ecrpt(file):
     try:
