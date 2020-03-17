@@ -35,7 +35,7 @@ def dcrpt(f):
                 try:
                         os.remove(f)
                 except FileNotFoundError:
-                        print(f + ' NOT FoUND')
+                        print(f + ' NOT foUND')
 
 sg.change_look_and_feel('BluePurple')
 
