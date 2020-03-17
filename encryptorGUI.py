@@ -11,7 +11,7 @@ def ecrpt(file):
         try:
             os.remove(file)
         except PermissionError:
-            print(file + ' is running')
+            print(file + ' is running ')
         
     except :
         print(file+" does not exist")  
